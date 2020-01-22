@@ -1,0 +1,60 @@
+html {
+  background-color: #087f5b;
+  color: white;
+}
+.yay {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 1.5em;
+}
+header h2 {
+  text-align: center;
+  padding: 0.5em;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 0em;
+}
+hr {
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 2em;
+  width: 40%;
+  text-align: center;
+}
+input {
+  width: 100%;
+  border: none;
+  font-size: 2em;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1em;
+  background-color: #087f5b;
+  color: white;
+  letter-spacing: 4px;
+}
+
+article {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#ip {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    color: red;
+  }
+
+  to {
+    color: blue;
+  }
+}

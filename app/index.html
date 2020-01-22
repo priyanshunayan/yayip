@@ -11,7 +11,12 @@
     <title>IPEE :)</title>
     <meta name="description" content="IP address for domain names" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Lato&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js"></script>
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -21,9 +26,18 @@
       </p>
     <![endif]-->
     <header>
-      <h1>IPEE</h1>
+      <h2><span class="yay">Yay</span>IP</h2>
+      <hr />
+      <input
+        type="text"
+        placeholder="enter domain name"
+        onkeypress="handle(event)"
+        id="domain"
+      />
     </header>
 
-    <script src="js/main.js" async defer></script>
+    <article>
+      <div id="ip"></div>
+    </article>
   </body>
 </html>
